@@ -8,4 +8,8 @@ public class Biblioteca {
         int opcion = JOptionPane.showConfirmDialog(null, mensaje, "¿Estas seguro?", JOptionPane.YES_NO_OPTION);
         return opcion;
     }
+    
+    public static void mostrarMensaje(String mensaje){
+        JOptionPane.showMessageDialog(null, mensaje);
+    }
 }
